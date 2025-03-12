@@ -1,1 +1,6 @@
-# ArchLinuxPriv
+![imagen](https://github.com/user-attachments/assets/ff19a5e7-b792-4057-bbbf-2aff0c211132)
+![imagen](https://github.com/user-attachments/assets/507aba35-17c2-4c30-bdb2-e472c7efedc0)
+![imagen](https://github.com/user-attachments/assets/b3eb443a-30c7-43dd-b687-523757a155af)
+![imagen](https://github.com/user-attachments/assets/8070b1e6-cdd6-4037-b13a-8b5401cd1072)
+![imagen](https://github.com/user-attachments/assets/d641546b-227f-44dc-8099-e7caaaf38e1f)
+![imagen](https://github.com/user-attachments/assets/28982b9d-4dad-4c73-8c29-c5a909015dbd)
