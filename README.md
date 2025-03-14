@@ -29,6 +29,17 @@ ahora para empezar con la configuracion del sistema hacemos el teclado:
 la primer linea nos ayuda a configurar el teclado pero de forma temporal, el segundo nos asegura que despues de cada reinicio se aplique esta distribucion
 
 ![imagen](https://github.com/user-attachments/assets/767f23d8-8e7d-4155-9b16-8525fe37f201)
+instalacion del "escritorio"
+![imagen](https://github.com/user-attachments/assets/9244a178-7462-4197-835d-f06b90f2ebaa)
 
+erramientass varias:
+Ark → Gestor de archivos comprimidos.
+Gwenview → Visor de imágenes.
+Spectacle → Captura de pantalla.
+KCalc → Calculadora avanzada.
+Kate → Editor de texto avanzado.
+![imagen](https://github.com/user-attachments/assets/9b5beaac-7552-4807-ae2f-3902a8b52317)
 
+administrador de ventanas
+![imagen](https://github.com/user-attachments/assets/ff57d734-6598-4366-82f9-ee501e2f7f10)
 
