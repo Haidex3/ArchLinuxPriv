@@ -32,7 +32,7 @@ la primer linea nos ayuda a configurar el teclado pero de forma temporal, el seg
 instalacion del "escritorio"
 ![imagen](https://github.com/user-attachments/assets/9244a178-7462-4197-835d-f06b90f2ebaa)
 
-erramientass varias:
+herramientass varias:
 Ark → Gestor de archivos comprimidos.
 Gwenview → Visor de imágenes.
 Spectacle → Captura de pantalla.
