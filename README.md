@@ -21,3 +21,5 @@ NO USAR MAYUSCULAS EN EL NOMBRE
 Hacemos reboot:
 ![imagen](https://github.com/user-attachments/assets/b9e3c223-1ab0-4e95-a189-2a5d52247146)
 necesitamos acceso a la red
+(esto se hace desde antes de terminar la configuracino preinstalacion) 
+![imagen](https://github.com/user-attachments/assets/f90ea996-ff3f-4139-b44b-87b07497d827)
