@@ -23,3 +23,12 @@ Hacemos reboot:
 necesitamos acceso a la red
 (esto se hace desde antes de terminar la configuracino preinstalacion) 
 ![imagen](https://github.com/user-attachments/assets/f90ea996-ff3f-4139-b44b-87b07497d827)
+
+
+ahora para empezar con la configuracion del sistema hacemos el teclado:
+la primer linea nos ayuda a configurar el teclado pero de forma temporal, el segundo nos asegura que despues de cada reinicio se aplique esta distribucion
+
+![imagen](https://github.com/user-attachments/assets/767f23d8-8e7d-4155-9b16-8525fe37f201)
+
+
+
