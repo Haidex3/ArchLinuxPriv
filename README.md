@@ -117,3 +117,10 @@ Administrador de ventanas:
 <img src="https://github.com/user-attachments/assets/ff57d734-6598-4366-82f9-ee501e2f7f10" alt="Administrador de ventanas">
 </div>
 
+![imagen](https://github.com/user-attachments/assets/164d1b3c-9c0e-42b1-af5f-8f9006d3bb00)
+
+
+![imagen](https://github.com/user-attachments/assets/c5dcc3f5-a882-4c71-b594-06c043e624c6)
+
+
+![imagen](https://github.com/user-attachments/assets/01889fac-4abe-4c26-96fd-b52c1fd3488b)
