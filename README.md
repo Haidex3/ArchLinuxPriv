@@ -124,3 +124,11 @@ Administrador de ventanas:
 
 
 ![imagen](https://github.com/user-attachments/assets/01889fac-4abe-4c26-96fd-b52c1fd3488b)
+
+
+instalacion obsidian
+![imagen](https://github.com/user-attachments/assets/f6d87978-4390-4735-b5fe-c5e8508026d8)
+
+entrando a downloads por si acaso, aplicamos el comando para descargar la imagen de obsidian
+![imagen](https://github.com/user-attachments/assets/bb63ed48-69dc-4ac3-8185-7f6f9566cf04)
+![imagen](https://github.com/user-attachments/assets/c146dc52-dad5-4afa-afab-600b73ad9439)
