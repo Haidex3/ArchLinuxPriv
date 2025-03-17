@@ -132,3 +132,7 @@ instalacion obsidian
 entrando a downloads por si acaso, aplicamos el comando para descargar la imagen de obsidian
 ![imagen](https://github.com/user-attachments/assets/bb63ed48-69dc-4ac3-8185-7f6f9566cf04)
 ![imagen](https://github.com/user-attachments/assets/c146dc52-dad5-4afa-afab-600b73ad9439)
+![imagen](https://github.com/user-attachments/assets/85051ee9-3ddc-40c6-86cb-e976d0363611)
+dependencias necesarias para la ejecucion
+![imagen](https://github.com/user-attachments/assets/d9e3d713-326d-4ef2-bf21-391358a78d9c)
+![imagen](https://github.com/user-attachments/assets/1c9bfdd4-9209-487e-b98d-7ef587dfa2c8)
