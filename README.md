@@ -149,3 +149,6 @@ al final lo mejor usarlo sin ser root
 ![imagen](https://github.com/user-attachments/assets/1cc0e126-f62b-42a1-af6b-96b65dd9d109)
 
 ![imagen](https://github.com/user-attachments/assets/20010219-b58f-4a5a-a91b-76220688ca2f)
+
+  wget -O vscode.tar.xz "https://code.visualstudio.com/sha/download?build=stable&os=linux-x64"
+
