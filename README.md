@@ -136,3 +136,12 @@ entrando a downloads por si acaso, aplicamos el comando para descargar la imagen
 dependencias necesarias para la ejecucion
 ![imagen](https://github.com/user-attachments/assets/d9e3d713-326d-4ef2-bf21-391358a78d9c)
 ![imagen](https://github.com/user-attachments/assets/1c9bfdd4-9209-487e-b98d-7ef587dfa2c8)
+![imagen](https://github.com/user-attachments/assets/05fd8d97-a7ad-498d-942a-fee62d0b9902)
+al final lo mejor usarlo sin ser root
+./Obsidian-*.AppImage --no-sandbox
+
+![imagen](https://github.com/user-attachments/assets/aac73520-32d4-42c7-add9-2ae9511ee41c)
+
+![imagen](https://github.com/user-attachments/assets/a13144de-d1f7-4a9e-8877-3a26d0b5a094)
+
+
