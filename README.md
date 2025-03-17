@@ -144,4 +144,8 @@ al final lo mejor usarlo sin ser root
 
 ![imagen](https://github.com/user-attachments/assets/a13144de-d1f7-4a9e-8877-3a26d0b5a094)
 
+![imagen](https://github.com/user-attachments/assets/fa587cc0-c7e7-496e-b386-1a3ce63ce5ff)
 
+![imagen](https://github.com/user-attachments/assets/1cc0e126-f62b-42a1-af6b-96b65dd9d109)
+
+![imagen](https://github.com/user-attachments/assets/20010219-b58f-4a5a-a91b-76220688ca2f)
