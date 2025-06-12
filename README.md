@@ -17,7 +17,7 @@
 <div align="center">
 <img src="https://github.com/user-attachments/assets/d641546b-227f-44dc-8099-e7caaaf38e1f" alt="Imagen 5">
 </div>
-
+  pacstrap /mnt base linux linux-firmware amd-ucode nano vim git wget curl networkmanager grub efibootmgr man-db man-pages sudo bash-completion neofetch htop
 <div align="center">
 <img src="https://github.com/user-attachments/assets/28982b9d-4dad-4c73-8c29-c5a909015dbd" alt="Imagen 6">
 </div>
