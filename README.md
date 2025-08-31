@@ -164,3 +164,25 @@ hacemos usoo de
 
 para poder instalar un software que administre correctamente la tarjeta
 
+
+
+  Server = https://edgeuno-bog2.mm.fcix.net/archlinux/$repo/os/$arch
+  Server = https://us.mirrors.cicku.me/archlinux/$repo/os/$arch
+  Server = https://br.mirrors.cicku.me/archlinux/$repo/os/$arch
+  Server = https://mirror.givebytes.net/archlinux/$repo/os/$arch
+  Server = https://mirror.theash.xyz/arch/$repo/os/$arch
+  Server = https://coresite.mm.fcix.net/archlinux/$repo/os/$arch
+  Server = https://arch.mirror.constant.com/$repo/os/$arch
+  Server = https://forksystems.mm.fcix.net/archlinux/$repo/os/$arch
+  Server = https://mirrors.rit.edu/archlinux/$repo/os/$arch
+  Server = https://mirrors.vectair.net/archlinux/$repo/os/$arch
+  Server = https://arch.mirror.k0.ae/$repo/os/$arch
+  Server = https://mirrors.ocf.berkeley.edu/archlinux/$repo/os/$arch
+  Server = https://arlm.tyzoid.com/$repo/os/$arch
+  Server = https://us.arch.niranjan.co/$repo/os/$arch
+  Server = https://codingflyboy.mm.fcix.net/archlinux/$repo/os/$arch
+  Server = https://mirrors.sonic.net/archlinux/$repo/os/$arch
+  Server = https://mirror.ufscar.br/archlinux/$repo/os/$arch
+  Server = https://archlinux.c3sl.ufpr.br/$repo/os/$arch
+  Server = https://mirrors.lug.mtu.edu/archlinux/$repo/os/$arch
+  Server = https://ny.us.mirrors.bjg.at/arch/$repo/os/$arch
