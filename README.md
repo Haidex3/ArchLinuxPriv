@@ -164,8 +164,7 @@ hacemos usoo de
 
 para poder instalar un software que administre correctamente la tarjeta
 
-
-
+<pre>
   Server = https://edgeuno-bog2.mm.fcix.net/archlinux/$repo/os/$arch
   Server = https://us.mirrors.cicku.me/archlinux/$repo/os/$arch
   Server = https://br.mirrors.cicku.me/archlinux/$repo/os/$arch
@@ -186,3 +185,4 @@ para poder instalar un software que administre correctamente la tarjeta
   Server = https://archlinux.c3sl.ufpr.br/$repo/os/$arch
   Server = https://mirrors.lug.mtu.edu/archlinux/$repo/os/$arch
   Server = https://ny.us.mirrors.bjg.at/arch/$repo/os/$arch
+</pre>
