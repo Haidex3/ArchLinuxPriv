@@ -1,42 +1,69 @@
+Para empezar con la instalacion, vamos a seleccionar la instalacion base:
+
 <div align="center">
 <img src="https://github.com/user-attachments/assets/ff19a5e7-b792-4057-bbbf-2aff0c211132" alt="Imagen 1">
 </div>
+
+Verificamos la conexion a internet con el uso del comando ping, en caso de no tener acceso, instalamos nmtui y accedemos a la red:
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/507aba35-17c2-4c30-bdb2-e472c7efedc0" alt="Imagen 2">
 </div>
 
+Verificamos el nombre de las particiones del disco y empezamos con la creacion:
+
 <div align="center">
 <img src="https://github.com/user-attachments/assets/b3eb443a-30c7-43dd-b687-523757a155af" alt="Imagen 3">
 </div>
+
+Creamos la particion, en este caso con el tamaño default:
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/8070b1e6-cdd6-4037-b13a-8b5401cd1072" alt="Imagen 4">
 </div>
 
+Formateamos la particion en el formato correcto y la montamos:
+
 <div align="center">
 <img src="https://github.com/user-attachments/assets/d641546b-227f-44dc-8099-e7caaaf38e1f" alt="Imagen 5">
 </div>
-  pacstrap /mnt base linux linux-firmware amd-ucode nano vim git wget curl networkmanager grub efibootmgr man-db man-pages sudo bash-completion neofetch htop
+
+Podemos hacer uso del siguiente comando para instalar varias herramientas utiles nada mas empezar:
+
+```
+pacstrap /mnt base linux linux-firmware amd-ucode nano vim git wget curl networkmanager grub efibootmgr man-db man-pages sudo bash-completion neofetch htop
+```
+
+Escaneamos los montajes activos:
+
 <div align="center">
 <img src="https://github.com/user-attachments/assets/28982b9d-4dad-4c73-8c29-c5a909015dbd" alt="Imagen 6">
 </div>
+
+Entramos en la configuracion del montaje:
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/8bb32833-eaf4-473c-b31c-abceffe7c1c4" alt="Imagen 7">
 </div>
 
+Agregamos la configuracion de fecha con:
+
 <div align="center">
 <img src="https://github.com/user-attachments/assets/93ada63b-6de9-4e4e-b70f-36498ada06ef" alt="Imagen 8">
 </div>
+
+Configuramos el archivo locale, y le agregamos un nombre a la maquina:
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/21264016-4aa7-4677-8a3d-93fac6cb5f57" alt="Imagen 9">
 </div>
 
+Para el manejo de las diferentes particiones en el dispositivo, agregamos `grub`:
+
 <div align="center">
 <img src="https://github.com/user-attachments/assets/3b04b146-1dd6-44b2-9575-a7c7080111d5" alt="Imagen 10">
 </div>
+
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/0a2b98cb-545a-471f-a33f-a2162dfb07e1" alt="Imagen 11">
