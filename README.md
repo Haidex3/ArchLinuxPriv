@@ -64,30 +64,43 @@ Para el manejo de las diferentes particiones en el dispositivo, agregamos `grub`
 <img src="https://github.com/user-attachments/assets/3b04b146-1dd6-44b2-9575-a7c7080111d5" alt="Imagen 10">
 </div>
 
+Instalamos i386 en la ruta:
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/0a2b98cb-545a-471f-a33f-a2162dfb07e1" alt="Imagen 11">
 </div>
 
+Actualizamos el archivo de configuracion de `grub` (En caso de tener en una particion en windows, es ncesario usar otro comando adicional para poder detectarlo):
+
 <div align="center">
 <img src="https://github.com/user-attachments/assets/cf88983d-f1d5-4375-bef3-96e3f6b67a81" alt="Imagen 12">
 </div>
+
+Le agregamos una contraseña para la cuenta root (Es importante hacerlo antes de desmontar):
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/1a881884-0a3e-4020-84a3-e759b065327a" alt="Imagen 13">
 </div>
 
+Creamos un usuario comun:
+
 <div align="center">
 <img src="https://github.com/user-attachments/assets/e53920a2-dcea-4546-bcb4-2f1251c00854" alt="Imagen 14">
 </div>
+
+En mi caso no instale sudo antes, por lo cual lo hago en este punto:
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/b989adda-4c06-436f-8cbb-307fc11170ab" alt="Imagen 15">
 </div>
 
+Le asignamos permisos a la cuenta base:
+
 <div align="center">
 <img src="https://github.com/user-attachments/assets/9694854f-c982-4f90-af28-42507bc04d76" alt="Imagen 16">
 </div>
+
+Verificamos nuevamente la red:
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/8bcfbbb9-c02e-47d0-a74a-53c6e0de7b04" alt="Imagen 17">
