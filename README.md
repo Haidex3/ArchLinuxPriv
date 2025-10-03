@@ -34,81 +34,85 @@ Podemos hacer uso del siguiente comando para instalar varias herramientas utiles
 pacstrap /mnt base linux linux-firmware amd-ucode nano vim git wget curl networkmanager grub efibootmgr man-db man-pages sudo bash-completion neofetch htop
 ```
 
-Escaneamos los montajes activos:
+Esperamos la instalacion (puede tardar):
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/28982b9d-4dad-4c73-8c29-c5a909015dbd" alt="Imagen 6">
 </div>
 
-Entramos en la configuracion del montaje:
+Escaneamos los montajes activos:
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/8bb32833-eaf4-473c-b31c-abceffe7c1c4" alt="Imagen 7">
 </div>
 
-Agregamos la configuracion de fecha con:
+Entramos en la configuracion del montaje:
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/93ada63b-6de9-4e4e-b70f-36498ada06ef" alt="Imagen 8">
 </div>
 
-Configuramos el archivo locale, y le agregamos un nombre a la maquina:
+Agregamos la configuracion de fecha con:
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/21264016-4aa7-4677-8a3d-93fac6cb5f57" alt="Imagen 9">
 </div>
 
-Para el manejo de las diferentes particiones en el dispositivo, agregamos `grub`:
+Configuramos el archivo locale, y le agregamos un nombre a la maquina:
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/3b04b146-1dd6-44b2-9575-a7c7080111d5" alt="Imagen 10">
 </div>
 
-Instalamos i386 en la ruta:
+Para el manejo de las diferentes particiones en el dispositivo, agregamos `grub`:
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/0a2b98cb-545a-471f-a33f-a2162dfb07e1" alt="Imagen 11">
 </div>
 
-Actualizamos el archivo de configuracion de `grub` (En caso de tener en una particion en windows, es ncesario usar otro comando adicional para poder detectarlo):
+Instalamos i386 en la ruta:
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/cf88983d-f1d5-4375-bef3-96e3f6b67a81" alt="Imagen 12">
 </div>
 
-Le agregamos una contraseña para la cuenta root (Es importante hacerlo antes de desmontar):
+Actualizamos el archivo de configuracion de `grub` (En caso de tener en una particion en windows, es ncesario usar otro comando adicional para poder detectarlo):
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/1a881884-0a3e-4020-84a3-e759b065327a" alt="Imagen 13">
 </div>
 
-Creamos un usuario comun:
+Le agregamos una contraseña para la cuenta root (Es importante hacerlo antes de desmontar):
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/e53920a2-dcea-4546-bcb4-2f1251c00854" alt="Imagen 14">
 </div>
 
-En mi caso no instale sudo antes, por lo cual lo hago en este punto:
+Creamos un usuario comun:
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/b989adda-4c06-436f-8cbb-307fc11170ab" alt="Imagen 15">
 </div>
 
-Le asignamos permisos a la cuenta base:
+En mi caso no instale sudo antes, por lo cual lo hago en este punto:
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/9694854f-c982-4f90-af28-42507bc04d76" alt="Imagen 16">
 </div>
 
-Verificamos nuevamente la red:
+Le asignamos permisos a la cuenta base:
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/8bcfbbb9-c02e-47d0-a74a-53c6e0de7b04" alt="Imagen 17">
 </div>
 
+Activamos el protocolo NetworkManager:
+
 <div align="center">
 <img src="https://github.com/user-attachments/assets/016ae020-f594-4e6c-a94c-8f3d2384aff6" alt="Imagen 18">
 </div>
+
+Desmontamos la particion:
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/c3613364-c8e0-4971-95d3-7caf5312c183" alt="Imagen 19">
