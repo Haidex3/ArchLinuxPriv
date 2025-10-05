@@ -150,7 +150,39 @@ yay -S postman
 yay -S dbeaver
 yay -S heroic-games-launcher-bin
 ```
+Variables de entorno:
 ```
+sudo nano ~/.bashrc
+```
+
+```
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
+export JAVA_HOME=/opt/microsoft-jdk-21
+export PATH=$JAVA_HOME/bin:$PATH
+
+
+runbg() {
+    nohup "$@" > /dev/null 2>&1 &
+}
+
+eval "$(ssh-agent -s)" > /dev/null
+ssh-add ~/.ssh/id_ed25519 2>/dev/null
+export PATH=$PATH:$HOME/.local/bin
+
+
+export DB_SARABI_URL=jdbc:postgresql://tramway.proxy.rlwy.net:20899/railway
+export DB_SARABI_USER=postgres
+
+export DB_SARABI_PASSWORD=NhlZerRxUFDtHJtGJxwFzGtbQnwUkIGG
 ```
 ```
 ```
