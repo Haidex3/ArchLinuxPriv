@@ -6,9 +6,9 @@ xdata = pkgtype=debug
 pkgver = 12.5.0-1
 pkgdesc = Detached debugging symbols for yay
 url = https://github.com/Jguer/yay
-builddate = 1757776692
+builddate = 1753765301
 packager = Unknown Packager
-size = 14722840
+size = 14535576
 arch = x86_64
 license = GPL-3.0-or-later
 makedepend = go>=1.21
