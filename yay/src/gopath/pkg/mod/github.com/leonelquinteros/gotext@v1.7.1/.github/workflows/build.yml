@@ -1,0 +1,39 @@
+name: Gotext build
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Set up Go 1.23
+      uses: actions/setup-go@v5
+      with:
+        go-version: 1.23
+      id: go
+
+    - name: Check out code into the Go module directory
+      uses: actions/checkout@v4
+
+    - name: Get dependencies
+      run: |
+        go get -v -u -t -d ./...
+
+    - name: Build package
+      run: go build -v .
+
+    - name: Test
+      run: go test -v -race ./...
+
+    - name: Install xgotext CLI
+      run: go install -v github.com/leonelquinteros/gotext/cli/xgotext
+
+    - name: Run xgotext CLI
+      run: go run cli/xgotext/main.go -default test -in cli/xgotext/fixtures/pkg -out cli/xgotext/fixtures/out
+      

@@ -1,0 +1,25 @@
+name: Build Lint Test (BLT)
+# This workflow is triggered on pushes to the repository.
+on:
+  push:
+    branches-ignore:
+      - pacman*
+    paths-ignore:
+      - "examples/**"
+      - "Dockerfile"
+      - "**/builder-image.yml"
+  pull_request:
+
+jobs:
+  build:
+    name: Build and test go-alpm
+    runs-on: ubuntu-latest
+    container:
+      image: jguer/yay-builder:latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Lint
+        run: /app/bin/golangci-lint run ./...
+      - name: Run Build and Tests
+        run: make test
