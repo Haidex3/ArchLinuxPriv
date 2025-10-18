@@ -198,6 +198,8 @@ lxappearance
 ```
 
 Cambiamos el tema a dracula, aparte de esto es importante recordar que se debe copiar todo lo de config de este repositorio
+
+No olvidar dar permisos de ejecucion a todo script
 ```
 ```
 ```
