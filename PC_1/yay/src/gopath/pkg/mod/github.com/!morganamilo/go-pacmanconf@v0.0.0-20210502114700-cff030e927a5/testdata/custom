@@ -1,6 +1,0 @@
-[options]
-CacheDir = /path/to/custom
-
-[custom]
-Server = custom
-Usage = All
