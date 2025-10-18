@@ -23,6 +23,9 @@
       "tray"
     ],
     "modules-center": [
+      "custom/separator#blank_2",
+      "cpu",
+      "memory",
       "custom/gpu"
     ],
     "mpris": {
@@ -35,6 +38,12 @@
       "interval": 5,
       "format": "{}",
       "tooltip": true
+    },
+    "cpu": {
+      "format": " {usage}%"
+    },
+    "memory": {
+      "format": " {used} GB"
     }
   },
   
