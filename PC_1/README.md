@@ -114,7 +114,7 @@ while true; do
     sleep 10
 done
 ```
-Ahira necesitamos instalar:
+Ahora necesitamos instalar:
 ```
 sudo pacman -S expect
 ```
@@ -141,6 +141,7 @@ sudo pacman -S wl-clipboard
 sudo pacman -S pamixer
 sudo pacman -S brightnessctl
 sudo pacman -S firefox
+sudo pacman -S lxappearance
 yay -S discord
 yay -S visual-studio-code-bin
 yay -S spotify
@@ -184,6 +185,19 @@ export DB_SARABI_USER=postgres
 
 export DB_SARABI_PASSWORD=NhlZerRxUFDtHJtGJxwFzGtbQnwUkIGG
 ```
+Ahora para la gestion de temas debemos instalar el tema de Dracula:
+
+```
+yay -S dracula-gtk-theme
+```
+
+y haciendo uso de 
+
+```
+lxappearance
+```
+
+Cambiamos el tema a dracula, aparte de esto es importante recordar que se debe copiar todo lo de config de este repositorio
 ```
 ```
 ```
