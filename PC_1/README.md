@@ -200,7 +200,15 @@ lxappearance
 Cambiamos el tema a dracula, aparte de esto es importante recordar que se debe copiar todo lo de config de este repositorio
 
 No olvidar dar permisos de ejecucion a todo script
+
+
+Para temas de brillo en pc de mesa:
+
 ```
 ```
+sudo pacman -S ddcutil
+echo "i2c-dev" | sudo tee /etc/modules-load.d/i2c-dev.conf
+chmod +x ~/.config/waybar/scripts/brightness-ddc.sh
+chmod +x ~/scripts/brightness-ddc.sh
 ```
 ```

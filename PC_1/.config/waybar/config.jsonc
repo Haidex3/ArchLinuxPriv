@@ -88,6 +88,8 @@
       "battery",
       "network",
       "custom/separator#blank",
+      "custom/brightness",
+      "custom/separator#blank",
       "pulseaudio",
       "custom/separator#blank",
       "custom/power"
@@ -132,6 +134,17 @@
     "battery": {
       "format": "{capacity}% {icon}",
       "format-icons": ["", "", "", "", ""]
+    },
+
+    "custom/brightness": {
+      "exec": "~/.config/waybar/scripts/brightness-ddc.sh",
+      "interval": 3,
+      "format": " {}%",
+      "on-click": "~/.config/waybar/scripts/brightness-ddc.sh up",
+      "on-click-right": "~/.config/waybar/scripts/brightness-ddc.sh down",
+      "on-scroll-up": "~/.config/waybar/scripts/brightness-ddc.sh up",
+      "on-scroll-down": "~/.config/waybar/scripts/brightness-ddc.sh down",
+      "tooltip": false
     },
 
     "pulseaudio": {
