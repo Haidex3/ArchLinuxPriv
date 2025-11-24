@@ -2,33 +2,17 @@
 
 set -e
 
-USER_NAME="Haider"
-REPO_URL="https://github.com/Haidex3/ArchLinuxPriv"
-TARGET_DIR="$HOME/Documents/ArchLinuxPriv"
-CONFIG_SOURCE="$TARGET_DIR/PC_1/.config"
-CONFIG_TARGET="$HOME/.config"
-
-echo "=== Instalando paquetes necesarios ==="
-sudo pacman -S --needed xdg-desktop-portal-hyprland polkit \
-    waybar rofi alacritty wl-clipboard grim slurp \
-    dolphin pavucontrol brightnessctl network-manager-applet -y
-
-echo "=== Clonando repositorio en ~/Documents ==="
-mkdir -p "$HOME/Documents"
-if [ -d "$TARGET_DIR" ]; then
-    echo "El repositorio ya existe, actualizando..."
-    git -C "$TARGET_DIR" pull
-else
-    git clone "$REPO_URL" "$TARGET_DIR"
-fi
+USER_NAME="andre"
+REPO_CONFIG="$HOME/Documents/ArchLinuxPriv/PC_1/.config"
+TARGET_CONFIG="$HOME/.config"
 
 echo "=== Copiando configuración (solo carpetas existentes en el repo) ==="
-mkdir -p "$CONFIG_TARGET"
+mkdir -p "$TARGET_CONFIG"
 
-for folder in "$CONFIG_SOURCE"/*; do
+for folder in "$REPO_CONFIG"/*; do
     name=$(basename "$folder")
     echo "Copiando carpeta: $name"
-    rsync -a --delete "$folder/" "$CONFIG_TARGET/$name/"
+    rsync -a --delete "$folder/" "$TARGET_CONFIG/$name/"
 done
 
 echo "=== Configurando autologin en TTY1 ==="
@@ -52,5 +36,4 @@ if [[ -z $DISPLAY ]] && [[ $(tty) == /dev/tty1 ]]; then
 fi
 EOF
 
-echo "=== Script completado 🎉 ==="
-echo "Reinicia para que el autologin e inicio de Hyprland se apliquen."
+echo "=== Todo listo! Reinicia para aplicar autologin e inicio automático de Hyprland ==="
