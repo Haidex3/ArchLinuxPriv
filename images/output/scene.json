@@ -1,8 +1,8 @@
 {
 	"camera" : 
 	{
-		"center" : "1919.99988 -675.19995 0.00000",
-		"eye" : "1919.99988 -675.19995 1.00000",
+		"center" : "65.78347 4.69576 -1.00000",
+		"eye" : "65.78347 4.69576 0.00000",
 		"up" : "0.00000 1.00000 0.00000"
 	},
 	"general" : 
@@ -37,8 +37,8 @@
 		"nearz" : 0.0099999998,
 		"orthogonalprojection" : 
 		{
-			"height" : 2880,
-			"width" : 5120
+			"height" : 2160,
+			"width" : 3840
 		},
 		"perspectiveoverridefov" : 90.0,
 		"skylightcolor" : "0.30000 0.30000 0.30000",
@@ -51,52 +51,146 @@
 	[
 		{
 			"castshadow" : false,
-			"id" : 16,
-			"image" : "models/e560b29d336ef5e6c6633d8fe984188.json",
-			"name" : "e560b29d336ef5e6c6633d8fe984188",
-			"origin" : "2560.00000 1440.00000 0.00000",
-			"size" : "5120.00000 2880.00000"
+			"clampuvs" : true,
+			"disablepropagation" : false,
+			"effects" : 
+			[
+				{
+					"file" : "effects/foliagesway/effect.json",
+					"id" : 20,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"phase" : 0.73000002,
+								"power" : 1.0,
+								"ratio" : 0.30000001,
+								"scale" : 0.050000001,
+								"scrolldirection" : 0.0,
+								"speeduv" : 1.1,
+								"strength" : 0.25999999
+							},
+							"id" : 21,
+							"textures" : [ null, "masks/foliagesway_mask_c09e2457", null ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shine/effect.json",
+					"id" : 67,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 1,
+								"noisescale" : 2.98,
+								"noisespeed" : 0.25999999,
+								"raythreshold" : 0.69999999
+							},
+							"id" : 68
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"color" : "1 1 1",
+								"direction" : 0.0,
+								"rayintensity" : 1.0,
+								"raylength" : 0.1,
+								"speed" : 0.0
+							},
+							"id" : 70
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : "1 1"
+							},
+							"id" : 71
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "1 1"
+							},
+							"id" : 72
+						},
+						{
+							"id" : 73
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/foliagesway/effect.json",
+					"id" : 245,
+					"name" : "Trees",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"phase" : 0.34999999,
+								"power" : 0.89999998,
+								"ratio" : 0.60000002,
+								"scale" : 0.07,
+								"scrolldirection" : 1.2170163,
+								"speeduv" : 2.1900001,
+								"strength" : 0.34999999
+							},
+							"id" : 246,
+							"textures" : [ null, "masks/foliagesway_mask_c1aecf9b", null ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 17,
+			"image" : "models/1383521.json",
+			"locktransforms" : true,
+			"name" : "1383521",
+			"origin" : "1920.00000 1080.00000 0.00000",
+			"size" : "3840.00000 2160.00000"
 		},
 		{
-			"anchor" : "none",
-			"angles" : "0.00000 -0.00000 0.44964",
-			"backgroundbrightness" : 1.0,
-			"backgroundcolor" : "0.00000 0.00000 0.00000",
-			"blockalign" : false,
-			"castshadow" : false,
-			"color" : "0.00000 0.00000 0.00000",
-			"depthtest" : "enabled",
-			"font" : "fonts/summer85.ttf",
-			"horizontalalign" : "center",
-			"id" : 20,
-			"limitrows" : false,
-			"limituseellipsis" : false,
-			"limitwidth" : false,
-			"maxrows" : 1,
-			"maxwidth" : 500.0,
-			"name" : "时间",
-			"opaquebackground" : false,
-			"origin" : "4695.65332 834.33673 0.00000",
-			"padding" : 32,
-			"pointsize" : 32.0,
-			"size" : "304.00000 153.00000",
-			"text" : 
+			"disablepropagation" : false,
+			"id" : 285,
+			"instanceoverride" : 
 			{
-				"script" : "'use strict';\n\nexport var scriptProperties = createScriptProperties()\n\t// Whether you want a 24h or 12h style format\n\t.addCheckbox({\n\t\tname: 'use24hFormat',\n\t\tlabel: 'ui_editor_properties_use_24h_format',\n\t\tvalue: true\n\t})\n\t// Whether you want to see the seconds or not\n\t.addCheckbox({\n\t\tname: 'showSeconds',\n\t\tlabel: 'ui_editor_properties_show_seconds',\n\t\tvalue: false\n\t})\n\t// This will be used to separate each element\n\t.addText({\n\t\tname: 'delimiter',\n\t\tlabel: 'ui_editor_properties_delimiter',\n\t\tvalue: ':'\n\t})\n\t.finish();\n\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value) {\n\tlet time = new Date();\n\tvar hours = time.getHours();\n\tif (!scriptProperties.use24hFormat) {\n\t\thours %= 12;\n\t\tif (hours == 0) {\n\t\t\thours = 12;\n\t\t}\n\t}\n\thours = (\"00\" + hours).slice(-2);\n\tlet minutes = (\"00\" + time.getMinutes()).slice(-2);\n\tvalue = hours + scriptProperties.delimiter + minutes;\n\tif (scriptProperties.showSeconds) {\n\t\tlet seconds = (\"00\" + time.getSeconds()).slice(-2);\n\t\tvalue += scriptProperties.delimiter + seconds;\n\t}\n\treturn value;\n}\n",
-				"scriptproperties" : 
-				{
-					"delimiter" : ":",
-					"showSeconds" : false,
-					"use24hFormat" : true
-				},
-				"value" : "12:34"
+				"alpha" : 1.5,
+				"colorn" : "0.15686 0.99216 0.99608",
+				"count" : 5.0,
+				"id" : 286,
+				"lifetime" : 1.77,
+				"rate" : 0.13,
+				"size" : 0.68000001
 			},
-			"verticalalign" : "center",
-			"visible" : 
-			{
-				"user" : "newproperty",
-				"value" : true
-			}
+			"name" : "Brandglut-Strahlen",
+			"origin" : "1518.12927 -98.13428 0.00000",
+			"particle" : "particles/presets/ember_beams.json",
+			"scale" : "3.63144 2.16621 1.00000",
+			"solid" : true
+		},
+		{
+			"disablepropagation" : false,
+			"id" : 289,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : false,
+			"name" : "SpotiDown.App - Nest - Youngjee Lee.mp3",
+			"playbackmode" : "loop",
+			"solid" : true,
+			"sound" : [ "sounds/SpotiDown.App - Nest - Youngjee Lee.mp3" ],
+			"startsilent" : false,
+			"volume" : 0.15000001
 		}
 	],
 	"version" : 5
