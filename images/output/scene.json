@@ -1,8 +1,8 @@
 {
 	"camera" : 
 	{
-		"center" : "65.78347 4.69576 -1.00000",
-		"eye" : "65.78347 4.69576 0.00000",
+		"center" : "0.00000 0.00000 -1.00000",
+		"eye" : "0.00000 0.00000 0.00000",
 		"up" : "0.00000 1.00000 0.00000"
 	},
 	"general" : 
@@ -57,140 +57,313 @@
 			[
 				{
 					"file" : "effects/foliagesway/effect.json",
-					"id" : 20,
+					"id" : 57,
 					"name" : "",
 					"passes" : 
 					[
 						{
 							"constantshadervalues" : 
 							{
-								"phase" : 0.73000002,
+								"phase" : 0.5,
 								"power" : 1.0,
-								"ratio" : 0.30000001,
-								"scale" : 0.050000001,
+								"ratio" : 0.3,
+								"scale" : 0.05,
 								"scrolldirection" : 0.0,
-								"speeduv" : 1.1,
-								"strength" : 0.25999999
+								"speeduv" : 5.0,
+								"strength" : 0.4
 							},
-							"id" : 21,
-							"textures" : [ null, "masks/foliagesway_mask_c09e2457", null ]
-						}
-					],
-					"visible" : true
-				},
-				{
-					"file" : "effects/shine/effect.json",
-					"id" : 67,
-					"name" : "",
-					"passes" : 
-					[
-						{
-							"constantshadervalues" : 
-							{
-								"noiseamount" : 1,
-								"noisescale" : 2.98,
-								"noisespeed" : 0.25999999,
-								"raythreshold" : 0.69999999
-							},
-							"id" : 68
-						},
-						{
-							"constantshadervalues" : 
-							{
-								"color" : "1 1 1",
-								"direction" : 0.0,
-								"rayintensity" : 1.0,
-								"raylength" : 0.1,
-								"speed" : 0.0
-							},
-							"id" : 70
-						},
-						{
-							"constantshadervalues" : 
-							{
-								"scale" : "1 1"
-							},
-							"id" : 71
-						},
-						{
-							"combos" : 
-							{
-								"VERTICAL" : 1
-							},
-							"constantshadervalues" : 
-							{
-								"scale" : "1 1"
-							},
-							"id" : 72
-						},
-						{
-							"id" : 73
-						}
-					],
-					"visible" : true
-				},
-				{
-					"file" : "effects/foliagesway/effect.json",
-					"id" : 245,
-					"name" : "Trees",
-					"passes" : 
-					[
-						{
-							"constantshadervalues" : 
-							{
-								"phase" : 0.34999999,
-								"power" : 0.89999998,
-								"ratio" : 0.60000002,
-								"scale" : 0.07,
-								"scrolldirection" : 1.2170163,
-								"speeduv" : 2.1900001,
-								"strength" : 0.34999999
-							},
-							"id" : 246,
-							"textures" : [ null, "masks/foliagesway_mask_c1aecf9b", null ]
+							"id" : 58
 						}
 					],
 					"visible" : true
 				}
 			],
 			"id" : 17,
-			"image" : "models/1383521.json",
+			"image" : "models/satoru-gojo-de-jujutsu-kaisen_5120x2880_xtrafondos.com.json",
 			"locktransforms" : true,
-			"name" : "1383521",
+			"name" : "satoru-gojo-de-jujutsu-kaisen_5120x2880_xtrafondos.com",
 			"origin" : "1920.00000 1080.00000 0.00000",
 			"size" : "3840.00000 2160.00000"
 		},
 		{
 			"disablepropagation" : false,
-			"id" : 285,
-			"instanceoverride" : 
-			{
-				"alpha" : 1.5,
-				"colorn" : "0.15686 0.99216 0.99608",
-				"count" : 5.0,
-				"id" : 286,
-				"lifetime" : 1.77,
-				"rate" : 0.13,
-				"size" : 0.68000001
-			},
-			"name" : "Brandglut-Strahlen",
-			"origin" : "1518.12927 -98.13428 0.00000",
-			"particle" : "particles/presets/ember_beams.json",
-			"scale" : "3.63144 2.16621 1.00000",
+			"id" : 28,
+			"name" : "Niebla 1",
+			"origin" : "1897.62964 883.87402 0.00000",
+			"particle" : "particles/presets/fog1.json",
+			"scale" : "5.33641 3.56761 1.00000",
 			"solid" : true
 		},
 		{
 			"disablepropagation" : false,
-			"id" : 289,
+			"id" : 35,
+			"name" : "Rayos de brasa",
+			"origin" : "277.18408 67.94550 0.00000",
+			"particle" : "particles/presets/ember_beams.json",
+			"scale" : "12.09777 7.78989 1.00000",
+			"solid" : true
+		},
+		{
+			"disablepropagation" : false,
+			"id" : 39,
 			"maxtime" : 5.0,
 			"mintime" : 1.0,
-			"muteineditor" : false,
-			"name" : "SpotiDown.App - Nest - Youngjee Lee.mp3",
+			"muteineditor" : true,
+			"name" : "Jujutsu Kaisen Season 2 OP. Full _ Ao no Sumika - Sub. Español 『AMV』♡ [9vFQc8MoU9g].mp3",
 			"playbackmode" : "loop",
 			"solid" : true,
-			"sound" : [ "sounds/SpotiDown.App - Nest - Youngjee Lee.mp3" ],
+			"sound" : 
+			[
+				"sounds/Jujutsu Kaisen Season 2 OP. Full _ Ao no Sumika - Sub. Español 『AMV』♡ [9vFQc8MoU9g].mp3"
+			],
 			"startsilent" : false,
-			"volume" : 0.15000001
+			"volume" : 0.41999999
+		},
+		{
+			"anchor" : "none",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"brightness" : 2.3900001,
+			"castshadow" : false,
+			"clampuvs" : true,
+			"depthtest" : "enabled",
+			"disablepropagation" : false,
+			"effects" : 
+			[
+				{
+					"file" : "effects/workshop/2981960200/blurprecise/effect.json",
+					"id" : 206,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : "1.28 1.28"
+							},
+							"id" : 0
+						},
+						{
+							"combos" : 
+							{
+								"ENABLEMASK" : 1,
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "1.28 1.28"
+							},
+							"id" : 208
+						}
+					],
+					"visible" : true
+				}
+			],
+			"font" : "fonts/workshop/2981960200/Quicksand-Bold.otf",
+			"horizontalalign" : "center",
+			"id" : 205,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "Clock",
+			"opaquebackground" : false,
+			"origin" : "2930.95996 1640.15674 0.00000",
+			"padding" : 32,
+			"pointsize" : 32.0,
+			"scale" : "0.28038 0.28038 0.28038",
+			"size" : "387.00000 219.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2981960200';\n// Please note: Do not remove this line or asset references may break.\n\nexport var scriptProperties = createScriptProperties()\n\t// Whether you want a 24h or 12h style format\n\t.addCheckbox({\n\t\tname: 'use24hFormat',\n\t\tlabel: 'ui_editor_properties_use_24h_format',\n\t\tvalue: true\n\t})\n\t// Whether you want to see the seconds or not\n\t.addCheckbox({\n\t\tname: 'showSeconds',\n\t\tlabel: 'ui_editor_properties_show_seconds',\n\t\tvalue: false\n\t})\n\t// This will be used to separate each element\n\t.addText({\n\t\tname: 'delimiter',\n\t\tlabel: 'ui_editor_properties_delimiter',\n\t\tvalue: ':'\n\t})\n\t.finish();\n\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value) {\n\tlet time = new Date();\n\tvar hours = time.getHours();\n\tif (!scriptProperties.use24hFormat) {\n\t\thours %= 12;\n\t\tif (hours == 0) {\n\t\t\thours = 12;\n\t\t}\n\t}\n\thours = (\"00\" + hours).slice(-2);\n\tlet minutes = (\"00\" + time.getMinutes()).slice(-2);\n\tvalue = \"-\" + hours + scriptProperties.delimiter + minutes+\"-\";\n\tif (scriptProperties.showSeconds) {\n\t\tlet seconds = (\"00\" + time.getSeconds()).slice(-2);\n\t\tvalue += scriptProperties.delimiter + seconds;\n\t}\n\treturn value;\n}\n",
+				"scriptproperties" : 
+				{
+					"delimiter" : ":",
+					"showSeconds" : false,
+					"use24hFormat" : false
+				},
+				"value" : "12:34"
+			},
+			"verticalalign" : "center"
+		},
+		{
+			"anchor" : "none",
+			"angles" : "-0.00000 -0.00000 -0.01036",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"brightness" : 1.4,
+			"castshadow" : false,
+			"clampuvs" : true,
+			"depthtest" : "enabled",
+			"disablepropagation" : false,
+			"effects" : 
+			[
+				{
+					"file" : "effects/workshop/2981960200/blurprecise/effect.json",
+					"id" : 212,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : "0.43 0.43"
+							},
+							"id" : 213
+						},
+						{
+							"combos" : 
+							{
+								"ENABLEMASK" : 1,
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "0.43 0.43"
+							},
+							"id" : 214
+						}
+					],
+					"visible" : true
+				}
+			],
+			"font" : "fonts/workshop/2981960200/Anurati-Regular.otf",
+			"horizontalalign" : "center",
+			"id" : 211,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "D a y",
+			"opaquebackground" : false,
+			"origin" : "2958.05518 1842.18225 0.00000",
+			"padding" : 32,
+			"pointsize" : 32.0,
+			"scale" : "1.37813 1.13179 0.95818",
+			"size" : "368.00000 224.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2981960200';\n// Please note: Do not remove this line or asset references may break.\n// Please note: Do not remove this line or asset references may break.\n\n\nexport var scriptProperties = createScriptProperties()\n\t.addCombo({\n\t\tname: 'monthFormat',\n\t\tlabel: 'Month Format',\n\t\toptions: [{\n\t\t\tlabel: 'Numeric',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '2'\n\t\t},{\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '3'\n\t\t}]\n\t})\n\t.addCombo({\n\t\tname: 'dayFormat',\n\t\tlabel: 'Day Format',\n\t\toptions: [{\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '2'\n\t\t}]\n\t})\n\t.addCheckbox({\n\t\tname: 'showDay',\n\t\tlabel: 'Show Day',\n\t\tvalue: true\n\t})\n   .addCheckbox({\n\t\tname: 'alignVertical',\n\t\tlabel: 'Align Day Vertically',\n\t\tvalue: false\n\t})\n  .addCheckbox({\n\t\tname: 'useDelimiter',\n\t\tlabel: 'Use Delimiter',\n\t\tvalue: false\n\t})\n\t.addText({\n\t\tname: 'addDelimiter',\n\t\tlabel: 'Delimiter',\n\t\tvalue: '/'\n\t})\n\t.finish();\n\n\nlet months;\nlet day;\nvar delimiterValue;\nvar newLine;\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value){\n  if (scriptProperties.useDelimiter == true){\n  delimiterValue = scriptProperties.addDelimiter\n}\n  if (scriptProperties.useDelimiter == false){\n   delimiterValue = [\n  ' '\n]\n}\nif (scriptProperties.alignVertical == true){\n   newLine = [\n  '\\n'\n]\n}\nif (scriptProperties.alignVertical == false){\n   newLine = [\n  ''\n]\n}\n  if (scriptProperties.monthFormat == 1){\n  months = [\n  '1',\n  '2',\n  '3',\n  '4',\n  '5',\n  '6',\n  '7',\n  '8',\n  '9',\n  '10',\n  '11',\n  '12'\n]\n}\n if (scriptProperties.monthFormat == 2){\n months = [\n  'JAN',\n  'FEB',\n  'MAR',\n  'APR',\n  'MAY',\n  'JUN',\n  'JUL',\n  'AUG',\n  'SEP',\n  'OCT',\n  'NOV',\n  'DEC'\n]\n}\nif (scriptProperties.monthFormat == 3){\n months = [\n  'January',\n  'February',\n  'March',\n  'April',\n  'May',\n  'June',\n  'July',\n  'August',\n  'September',\n  'October',\n  'November',\n  'December'\n]\n}\nif (scriptProperties.dayFormat == 1){\n  day = [\n  'S U N',\n  'M O N',\n  'T U E',\n  'W E D',\n  'T H U',\n  'F R I',\n  'S A T'\n]\n}\nif (scriptProperties.dayFormat == 2){\n day = [\n  'S U N D A Y',\n  'M O N D A Y',\n  'T U E S D A Y',\n  'W E D N E S D A Y',\n  'T H U R S D A Y',\n  'F R I D A Y',\n  'S A T U R D A Y'\n]\n}\n\tlet date = new Date();{\n    if (scriptProperties.showDay == true ){\n    return day[date.getDay()]      }\n    if (scriptProperties.showDay == false ){\n\treturn   date.getDate() + delimiterValue + months[date.getMonth()] + delimiterValue + date.getFullYear();\n}\n}\n}\n",
+				"scriptproperties" : 
+				{
+					"addDelimiter" : "/",
+					"alignVertical" : false,
+					"dayFormat" : "2",
+					"monthFormat" : "1",
+					"showDay" : true,
+					"useDelimiter" : true
+				},
+				"value" : "DAY"
+			},
+			"verticalalign" : "center"
+		},
+		{
+			"anchor" : "none",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"brightness" : 1.98,
+			"castshadow" : false,
+			"clampuvs" : true,
+			"depthtest" : "enabled",
+			"disablepropagation" : false,
+			"effects" : 
+			[
+				{
+					"file" : "effects/workshop/2981960200/blurprecise/effect.json",
+					"id" : 218,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : "1.33 1.33"
+							},
+							"id" : 219
+						},
+						{
+							"combos" : 
+							{
+								"ENABLEMASK" : 1,
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "1.33 1.33"
+							},
+							"id" : 220
+						}
+					],
+					"visible" : true
+				}
+			],
+			"font" : "fonts/workshop/2981960200/Quicksand-Bold.otf",
+			"horizontalalign" : "center",
+			"id" : 217,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "Date",
+			"opaquebackground" : false,
+			"origin" : "2928.64917 1707.20129 0.00000",
+			"padding" : 32,
+			"pointsize" : 32.0,
+			"scale" : "0.31731 0.30580 0.44841",
+			"size" : "522.00000 219.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2981960200';\n// Please note: Do not remove this line or asset references may break.\n// Please note: Do not remove this line or asset references may break.\n\n\nexport var scriptProperties = createScriptProperties()\n\t.addCombo({\n\t\tname: 'monthFormat',\n\t\tlabel: 'Month Format',\n\t\toptions: [{\n\t\t\tlabel: 'Numeric',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '2'\n\t\t},{\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '3'\n\t\t}]\n\t})\n\t.addCombo({\n\t\tname: 'dayFormat',\n\t\tlabel: 'Day Format',\n\t\toptions: [{\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '2'\n\t\t}]\n\t})\n\t.addCheckbox({\n\t\tname: 'showDay',\n\t\tlabel: 'Show Day',\n\t\tvalue: false\n\t})\n   .addCheckbox({\n\t\tname: 'alignVertical',\n\t\tlabel: 'Align Day Vertically',\n\t\tvalue: false\n\t})\n  .addCheckbox({\n\t\tname: 'useDelimiter',\n\t\tlabel: 'Use Delimiter',\n\t\tvalue: false\n\t})\n\t.addText({\n\t\tname: 'addDelimiter',\n\t\tlabel: 'Delimiter',\n\t\tvalue: '/'\n\t})\n\t.finish();\n\n\nlet months;\nlet day;\nvar delimiterValue;\nvar newLine;\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value){\n  if (scriptProperties.useDelimiter == true){\n  delimiterValue = scriptProperties.addDelimiter\n}\n  if (scriptProperties.useDelimiter == false){\n   delimiterValue = [\n  ' '\n]\n}\nif (scriptProperties.alignVertical == true){\n   newLine = [\n  '\\n'\n]\n}\nif (scriptProperties.alignVertical == false){\n   newLine = [\n  ''\n]\n}\n  if (scriptProperties.monthFormat == 1){\n  months = [\n  '1',\n  '2',\n  '3',\n  '4',\n  '5',\n  '6',\n  '7',\n  '8',\n  '9',\n  '10',\n  '11',\n  '12'\n]\n}\n if (scriptProperties.monthFormat == 2){\n months = [\n  ' JAN ',\n  ' FEB ',\n  ' MAR ',\n  ' APR ',\n  ' MAY ',\n  ' JUN ',\n  ' JUL ',\n  ' AUG ',\n  ' SEP ',\n  ' OCT ',\n  ' NOV ',\n  ' DEC '\n]\n}\nif (scriptProperties.monthFormat == 3){\n months = [\n  'January',\n  'February',\n  'March',\n  'April',\n  'May',\n  'June',\n  'July',\n  'August',\n  'September',\n  'October',\n  'November',\n  'December'\n]\n}\nif (scriptProperties.dayFormat == 1){\n  day = [\n  'Sun',\n  'Mon',\n  'Tue',\n  'Wed',\n  'Thu',\n  'Fri',\n  '\\nSat'\n]\n}\nif (scriptProperties.dayFormat == 2){\n day = [\n  'Sunday',\n  'Monday',\n  'Tuesday',\n  'Wednesday',\n  'Thursday',\n  'Friday',\n  '\\nSaturday'\n]\n}\n\tlet date = new Date();{\n    if (scriptProperties.showDay == true ){\n    return day[date.getDay()] + newLine + ' ' + date.getDate() + delimiterValue + months[date.getMonth()] + delimiterValue + date.getFullYear();\n    }\n    if (scriptProperties.showDay == false ){\n\treturn   date.getDate() + delimiterValue + months[date.getMonth()] + delimiterValue + date.getFullYear();\n}\n}\n}\n",
+				"scriptproperties" : 
+				{
+					"addDelimiter" : "",
+					"alignVertical" : false,
+					"dayFormat" : "2",
+					"monthFormat" : "2",
+					"showDay" : false,
+					"useDelimiter" : true
+				},
+				"value" : "<Date>"
+			},
+			"verticalalign" : "center"
+		},
+		{
+			"castshadow" : false,
+			"clampuvs" : true,
+			"disablepropagation" : false,
+			"id" : 229,
+			"image" : "models/workshop/2652493753/bar.json",
+			"name" : "Simple Visualizer",
+			"origin" : "2351.37598 1431.63049 0.00000",
+			"scale" : "0.43052 0.43052 0.43052",
+			"size" : "4.00000 4.00000",
+			"visible" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2652493753';\n\nconst NUM_BARS = 64;\nconst FULL_CIRCLE_DEGREES = 360;\n\n\nexport var scriptProperties = createScriptProperties()\n    .addSlider({\n        name: 'barWidth',\n        label: 'Width粗细',\n        value: 5,\n        min: 0,\n        max: 10,\n        integer: false\n    })\n    .addSlider({\n        name: 'scaleY',\n        label: 'bounce height弹跳高度',\n        value: 50,\n        min: 0,\n        max: 100,\n        integer: false\n    })\n    .addSlider({\n        name: 'originX',\n        label: 'Distance距离',\n        value: 30,\n        min: -60,\n        max: 60,\n        integer: false\n    })\n    .addSlider({\n        name: 'originY',\n        label: 'Audio Bar height音频条高度',\n        value: 0,\n        min: -60,\n        max: 60,\n        integer: false\n    })\n    .addSlider({\n        name: 'anglesY',\n        label: 'Audio Bar Angles音频条角度',\n        value: 0,\n        min: -90,\n        max: 90,\n        integer: false\n    })\n    .addCombo({\n        name: 'barAlignmentdir',\n        label: 'Direction形态',\n        options: [{\n            label: 'Centre居中',\n            value: 'centre'\n        }, {\n            label: 'Bottom底边对齐',\n            value: 'bottom'\n        }, {\n            label: 'Top顶部对齐',\n            value: 'top'\n        }]\n    })\n    .finish();\n\nvar bars = [];\nvar baseOrigin;\nvar baseAngle;\nlet audioData = engine.registerAudioBuffers(NUM_BARS);\n\nexport function update() {\n    const barAlignment = scriptProperties.barAlignmentdir;\n\n    for (var i = 0; i < NUM_BARS; ++i) {\n        try {\n            let amt = audioData.average[i];\n            let bar = bars[i];\n\n            let origin = baseOrigin.copy();\n            let scale = new Vec3(scriptProperties.barWidth, amt * scriptProperties.scaleY, 0);\n\n            origin.x += scriptProperties.originX * i;\n            origin.y += scriptProperties.originY * i;\n\n            if (bar.alignment !== barAlignment) {\n                bar.alignment = barAlignment;\n            }\n\n            bar.scale = scale;\n            bar.origin = origin;\n        } catch (error) {\n            console.error('发生错误：', error);\n        }\n    }\n}\n\nexport function init() {\n    bars.push(thisLayer);\n    let thisIndex = thisScene.getLayerIndex(thisLayer);\n    for (var i = 1; i < NUM_BARS; ++i) {\n        let bar = thisScene.createLayer('models/bar.json');\n        bar.alignment = scriptProperties.barAlignmentdir;\n        thisScene.sortLayer(bar, thisIndex);\n        bar.parallaxDepth = new Vec2(0, 0);\n        bars.push(bar);\n    }\n\n    for (var i = 0; i < NUM_BARS; ++i) {\n        let angle = FULL_CIRCLE_DEGREES * (i / NUM_BARS);\n        let bar = bars[i];\n        bar.angles = new Vec3(0, 0, scriptProperties.anglesY);\n    }\n\n    baseOrigin = thisLayer.origin;\n}\n",
+				"scriptproperties" : 
+				{
+					"anglesY" : 0,
+					"barAlignmentdir" : "bottom",
+					"barWidth" : 5,
+					"originX" : 22.799999,
+					"originY" : 0,
+					"scaleY" : 60
+				},
+				"value" : true
+			}
+		},
+		{
+			"disablepropagation" : false,
+			"id" : 56,
+			"name" : "",
+			"origin" : "1920.00000 1080.00000 0.00000",
+			"solid" : true
 		}
 	],
 	"version" : 5
